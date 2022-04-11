@@ -2,9 +2,9 @@ from Pessoa import Pessoa
 
 class Fisica(Pessoa):
 
-    def __init__(self, idade):
-        super().__init__()
-        self.idade = idade
+    def __init__(self, nomeF, idadeF):
+        super().__init__(nomeF)
+        self.idadeF = idadeF
         print("Pessoa Fisica construida")
     
     def __str__(self):

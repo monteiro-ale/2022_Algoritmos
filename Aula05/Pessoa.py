@@ -1,6 +1,6 @@
 class Pessoa:
 
-    def __init__(self, nome = "Sem Nome", telefone = "Sem fone"):
+    def __init__(self, nome, telefone = "Sem fone"):
         self.nome = nome
         self.telefone = telefone
 

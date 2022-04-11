@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from Categoria import Categoria
 from Produto import Produto
 
@@ -7,3 +8,4 @@ p1.cadastrar()
 p2 = Produto()
 p2.setCategoria()
 p2.cadastrar()
+
