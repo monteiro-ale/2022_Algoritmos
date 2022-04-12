@@ -10,3 +10,4 @@ p1 = Pessoa("João", "(51)1122334")
 
 pj = Juridica("João da Silva ME.", "00.111.222/000013", "3322-1144", 3)
 print(pj.nome)
+print(pj)
