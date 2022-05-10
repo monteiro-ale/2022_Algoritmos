@@ -16,18 +16,15 @@ class ContaBancaria(ABC):
     
     @abstractmethod
     def cadastrar(self, numConta, agencia, codCliente):
-        self.numConta = numConta
-        self.agencia = agencia
-        self.codCliente = codCliente
-        self.saldo = 0
+        pass
 
     @abstractmethod
     def getSaldo(self):
-        return self.saldo
+        pass
 
     @abstractmethod
     def depositar(self, valor):
-        self.saldo += valor
+        pass
 
     def getInformacoes(self):
         return f"Numero da Conta : {self.numConta}\nAgencia :{self.agencia}\nCodigo :{self.codCliente}\nSaldo :{self.saldo}"
